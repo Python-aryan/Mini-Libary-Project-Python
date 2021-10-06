@@ -1,22 +1,3 @@
- #Question
-
-
-# Create a library class
-# display book
-# lend book - (who owns the book if not present)
-# add book
-# return book
-
-# HarryLibrary = Library(listofbooks, library_name)
-
-
-#dictionary (books-nameofperson)
-
-# create a main function and run an infinite while loop asking
-# users for their input
-
-# Plan
-
 # Make a class named libary. It should have 4 functions
 # display book
 # lend book - (who owns the book if not present)
@@ -124,3 +105,12 @@ class Libary():
         "Harry Potter and the Prisoner of Azkaban":"Vedant",
         "Harry Potter and the Goblet of Fire":"Vidhan",
         "Harry Potter and the Order of the Phoenix":"Yash",
+        "Harry Potter and the Half-Blood Prince":"Awadh",
+        "Harry Potter and the Deathly Hallows":"Ashwad"}
+        xyz = input()
+        return (d1[xyz])
+
+
+
+var = Libary()
+print(var.finduser())
